@@ -1,0 +1,71 @@
+period	1000
+feedforward	1
+mode	2
+fc_u	100
+fc_qd	200
+fc_qdd	50
+Mh	0
+Ms	0.4837
+Pref0	const 100 0 0.6 0
+Pref1	const 1 0 1 0
+Pref2	impulse 100 0 0.5 0
+Pref3	const 0.523599 0 0.5 0
+Pref4	trape 1.00007 0 1 0
+Pref5	const 1.00007 0 1 0
+Qref0	const 0.436332 0 0.1 0
+uref0	sin 2 5 1 0
+Qref1	sin 0.174533 0 0.1 0
+uref1	sin 1 0 1 0
+Qref2	const 0.349066 0 0.2 0
+uref2	const 1 0 1 0
+Qref3	const 0.523599 0 0.3 0
+uref3	const 1 0 1 0
+Kpp0	23000
+Kpd0	2000
+Kpdd0	0
+Kap0	0.02
+Kai0	0.4
+Kad0	0
+M0	80
+C0	200
+Fd0	400.1
+vlim0	0.02
+K0	0
+Zo0	0
+Kpp1	24000
+Kpd1	2500
+Kpdd1	0
+Kap1	0.02
+Kai1	0.4
+Kad1	0
+M1	200
+C1	400
+Fd1	400
+vlim1	0.02
+K1	2400
+Zo1	0
+Kpp2	21000
+Kpd2	1200
+Kpdd2	0
+Kap2	0.016
+Kai2	0.3
+Kad2	0
+M2	20
+C2	100
+Fd2	150
+vlim2	0.02
+K2	1750
+Zo2	0
+Kpp3	2000
+Kpd3	50
+Kpdd3	0
+Kap3	0.01
+Kai3	0.1
+Kad3	0
+M3	0
+C3	10
+Fd3	10
+vlim3	0.02
+K3	0
+Zo3	0
+
